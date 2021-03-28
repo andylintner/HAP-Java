@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:https://github.com/hap-java/HAP-Java.git</connection>
-		<developerConnection>scm:git:git@github.com:hap-java/HAP-Java.git</developerConnection>
-		<url>https://github.com/hap-java/HAP-Java.git</url>
+		<connection>scm:git:https://github.com/andylintner/HAP-Java.git</connection>
+		<developerConnection>scm:git:https://github.com/andylintner/HAP-Java.git</developerConnection>
+		<url>https://github.com/andylintner/HAP-Java.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
