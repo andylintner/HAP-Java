@@ -22,9 +22,9 @@ jobs:
       with:
         java-version: '11'
         architecture: x64
-    - name: Setup git profile
+    - name: Maven Release
+      uses: actions/checkout@v2
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-    - name: Maven release
-      run: mvn release:prepare release:perform -B -DreleaseVersion=${{ github.event.inputs.releaseVersion }}
+        mvn release:prepare release:perform -B -DreleaseVersion=${{ github.event.inputs.releaseVersion }}
