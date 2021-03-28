@@ -24,7 +24,7 @@ jobs:
         gpg-passphrase: MAVEN_GPG_PASSPHRASE
         server-username: MAVEN_USERNAME
         server-password: MAVEN_CENTRAL_TOKEN
-    - name: Publish to Apache Maven Central
+    - name: Publish to Maven Central
       run: echo "Not really deploying yet"
       env:
         MAVEN_USERNAME: hap-java-dev
